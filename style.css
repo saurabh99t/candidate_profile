@@ -91,7 +91,7 @@ body{
     }
 
     .skills span {
-        background-color: rgb(197, 243, 255);
+        background-color: rgb(197, 243, 255);    
         padding: 5px  20px;
         border-radius: 20px;
         font-size: 12px;
@@ -214,7 +214,7 @@ width: 100%;
 width: 100%;
 /* padding: 10px; */
 box-sizing: border-box;
-border-bottom: 1px solid #cccccc81;
+/* border-bottom: 1px solid #cccccc81;   */
 margin-bottom: 10px;
 }
 
@@ -231,7 +231,8 @@ margin-bottom: 10px;
 .outercontainer-4 {
 width: 100%;
 display: flex;
-background-color: rgb(247, 253, 255);
+/* background-color: rgb(247, 253, 255);     */
+
 }
 
 /* Style for the inner sections */
@@ -271,7 +272,7 @@ text-align: center;
     border-radius: 10px;
     outline: none;
     border: none;
-    background-color: rgb(0, 4, 255);
+    background-color: rgb(0, 191, 255);
     color: white;
     margin-right: 20px;
 }
@@ -368,6 +369,22 @@ justify-content: center; */
 
 
 
+.up-para{
+   font-weight: 500;
+   color: rgb(0, 0, 104);
+ 
+}
+
+
+.down-para {
+    color: gray;
+}
+
+
+
+.div-projects a{
+text-decoration: none;
+}
 
 /*         inner section 4 ki css */
 
@@ -399,6 +416,7 @@ justify-content: center; */
     @media screen and (max-width: 850px) {
         .outer-container {
             flex-direction: column;
+            margin-top: 0;
         }
 
         .inner-section1, .inner-section2 {
@@ -420,6 +438,11 @@ justify-content: center; */
             text-align: center;
         }
 
+        .outercontainer-4 {
+            margin-bottom: 30px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+
     }
 
 
@@ -435,6 +458,7 @@ justify-content: center; */
                 display: flex;
                 background-color: rgb(247, 253, 255);
                 flex-direction: column;
+                margin-bottom: 30px;
             }
 
         }
